@@ -1,0 +1,129 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.wrapper {
+    border: 1px solid #F2F2F2;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+.wrapper a {
+    text-decoration: none;
+}
+
+.sidebar {
+    float: left;
+    margin: 50px 10px;
+    width: 130px;
+}
+.sidebar ul {
+    list-style: none outside none;
+    padding: 0;
+}
+.sidebar li {
+    margin-bottom: 10px;
+}
+.sidebar a {
+    /* 
+        DBDBDB 
+        45BF55 
+        96ED89
+    */
+    background: none repeat scroll 0 0 #96ED89;
+    border-radius: 3px 3px 3px 3px;
+    color: #55594E;
+    display: block;
+    padding: 10px 5px;
+    text-decoration: none;
+}
+.sidebar a:hover {
+    color: black;
+    box-shadow: 0 0 10px #044C29;
+}
+.sidebar a:active {
+    color: black;
+    box-shadow: 0 0 10px #044C29;
+}
+.sidebar .current {
+    color: black;
+    box-shadow: 0 0 10px #044C29;
+}
+/*.sidebar a:selected {
+    color: black;
+    box-shadow: 0 0 10px #044C29;
+}*/
+
+.content {
+    border-left: 1px solid #F2F2F2;
+    float: right;
+    padding: 0 10px;
+    width: 780px;
+    font-family: Arial;
+}
+.admin-actions {
+    visibility: hidden;
+}
+tr:hover .admin-actions {
+    visibility: visible;
+}
+.admin-actions ul {
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.admin-actions li {
+    float: left;
+    list-style: none outside none;
+}
+.admin-actions li:after {
+    content: "|";
+    padding: 0 2px;
+}
+.admin-actions li:last-child:after {
+    content: none;
+}
+td {
+    border-right: 1px solid #AAAAAA;
+    padding: 5px 10px;
+    vertical-align: top;
+}
+td:last-child {
+    border-right: medium none;
+}
+th {
+    text-align: center;
+    padding: 5px 10px;
+    background: #cac9c9;
+    border-bottom: 1px solid white;
+    border-right: 1px solid #aaaaaa;
+}
+table {
+    margin-bottom: 10px;
+    width: 780px;
+}
+
+#admin-login {
+
+}
+/*dunno*/
+/*header, footer{
+	text-align: center;
+}
+
+header {
+	background: #2E4800;
+}
+header span {
+	color: white;
+}
+form{
+	width:400px;
+}
+label{
+	float: left; clear: left; margin: 11px 20px 0 0; width: 120px;
+	text-align: right; font-size: 16px; 
+}
+.data {
+	margin: 10px 0;
+	width: 200px;
+}*/

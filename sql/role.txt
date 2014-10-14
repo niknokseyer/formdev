@@ -1,0 +1,15 @@
+0 - FORMDEV Head
+1 - Student Head
+2 - BS Leader
+3 - Communications Committee Head
+4 - Instructional Materials Committee Head
+5 - Outreach Committee Head
+6 - Class Facilitator
+7 - Communications Committee
+8 - Instructional Materials Committee
+9 - Outreach Committee
+10 - Auxillary
+11 Faculty Facilitator
+a - Admin
+d - Developer
+m - Moderator
